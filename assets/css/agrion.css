@@ -17,6 +17,35 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img, iframe, video {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Adjust the max-width as per your layout's maximum width */
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
 :root {
   --agrion-font: 'DM Sans', sans-serif;
   --agrion-font-two: 'Amatic SC', cursive;

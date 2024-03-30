@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -45,6 +46,10 @@
     <link rel="stylesheet" href="assets/css/agrion.css">
     <link rel="stylesheet" href="assets/css/agrion-responsive.css">
     <link rel="stylesheet" href="assets/css/agrion-dark.css">
+
+
+    
+    
 </head>
 
 <body class="custom-cursor">
@@ -89,6 +94,9 @@
                                     </div>
                                 </li>
                             </ul>
+                            <p>Translate this page:</p>
+
+<div id="google_translate_element"></div>
                         </div>
                         <div class="main-header__menu-box-bottom">
                             <nav class="main-menu">
@@ -1414,7 +1422,11 @@
 
 
     </div><!-- /.page-wrapper -->
-
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
 
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
@@ -1498,7 +1510,7 @@
     <script src="assets/vendors/circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
 
-
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
     <!-- template js -->
