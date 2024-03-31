@@ -160,4 +160,6 @@ pids
 *.sqlite
 
 # dotenv environment variables file
-.env
+.venv
+
+plant_disease_model_1_latest.pt
