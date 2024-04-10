@@ -37,6 +37,7 @@ img, iframe, video {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
 }
 
 /* Adjust the max-width as per your layout's maximum width */
@@ -2855,8 +2856,8 @@ ul {
 }
 
 .feature-one__title {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   color: var(--agrion-white);
   line-height: 36px;
   text-transform: uppercase;
@@ -4394,6 +4395,7 @@ ul {
 .contact-one__input-box.text-message-box {
   height: 100px;
 } */
+
 .contact-one__input-box {
   position: relative;
   display: flex;
@@ -4438,6 +4440,8 @@ ul {
 .maps
 {
   text-align: center;
+  height: 450px;
+  width:100%;
 }
 #map {
   height: 400px;
