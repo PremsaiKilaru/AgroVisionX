@@ -269,7 +269,9 @@ ul {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  -webkit-appearance: none;
+  appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
   outline: none !important;
   background-color: var(--agrion-base);
   color: var(--agrion-white);
